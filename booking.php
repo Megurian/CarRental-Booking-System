@@ -120,7 +120,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
         <label for="car_id"> Select Car: </label><br>
         <select name="car_id" id="">
-        <option value="">-- Selec a Car --</option>
+            <option value="">-- Selec a Car --</option>
             <?php
                 $carList = $rentalObj->fetchCars();
                 foreach ($carList as $car){
